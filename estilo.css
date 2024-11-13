@@ -1,0 +1,25 @@
+.menu {
+     position:absolute;
+     display: block;
+    margin:0;
+    padding:0;
+
+}
+.menu li {
+      position: absolute;
+    font-size: 24px ;
+    top: auto;
+    background-color: brown;
+
+
+}
+
+body {
+    background-color: darkkhaki;
+}
+h1 {
+    background-color: brown;
+}
+ li {
+    <font color="purple">
+ }
