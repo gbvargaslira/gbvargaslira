@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulári para briga de rua</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    
+</head>
+<h1>briga de rua </h1>
+<body>
+    <p>preencha o formulário para se inscrever no maior torneio de luta,
+         onde qualquer tipo de golpe ou técnica será permitido.<p>
+         mostre do que você é capaz !!!!!!</p>
+    <h2></h2>
+
+<form action="/action_page.php">
+  <label for="fname">nome:</label><br>
+  <input type="text" id="fname" name="fname" value="escreva"><br>
+  <label for="lname">sobrenome:</label><br>
+  <input type="text" id="lname" name="lname" value="escreva"><br><br>
+  <p>escreva ou selecione seu estilo de luta . </p>
+
+  <input type="radio" id="html" name="fav_language" value="html">
+  <label for="html">grappler</label><br>
+  <input type="radio" id="css" name="fav_language" value="">
+  <label for="css">striker</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">outros</label>
+
+  <label for="fname"></label><br>
+  <input type="text" id="fname" name="fname" value="escreva"><br>
+<p>inscriçao </p>
+  <form action="/action_page.php">
+    <label for="email">digite seu email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+      
+
+    <form action="/register" method="POST">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+  
+      <label for="age">Idade:</label>
+      <input type="number" id="age" name="age">
+  
+      <label for="gender">Gênero:</label>
+      <select id="gender" name="gender">
+          <option value="male">Masculino</option>
+          <option value="female">Feminino</option>
+          <option value="other">Outro</option>
+      </select>
+  
+      <button type="submit">Cadastrar</button>
+  </form>
+
+  <p> contato 2 </p>
+
+  <form action="/contato" method="POST">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Enviar</button>
+</form>
+     
+
+  
+
+
+
+
+</form> 
+
+<p> </p>
+    
+    
+</body>
+</html>
